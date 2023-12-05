@@ -29,7 +29,6 @@ calc.addEventListener('click', (e) => {
         array.push(+input.value)
         console.log(array)
      }
-     console.log(array)
     }
     
 })
