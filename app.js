@@ -18,7 +18,7 @@ const plusMinus = document.querySelector('#one');
 const equal = document.querySelector('#one');
 const period = document.querySelector('#one');
 const zero = document.querySelector('#one');
-const calc = document.querySelector('#calc');
+const calc = document.querySelector('#calculator');
 const input = document.querySelector('#input');
 let array = [];
 
