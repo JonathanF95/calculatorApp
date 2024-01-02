@@ -18,11 +18,11 @@ const plusMinus = document.querySelector('#one');
 const equal = document.querySelector('#one');
 const period = document.querySelector('#one');
 const zero = document.querySelector('#one');
-const calc = document.querySelector('#calculator');
+const calculator = document.querySelector('#calculator');
 const input = document.querySelector('#input');
 let array = [];
 
-calc.addEventListener('click', (e) => {
+calculator.addEventListener('click', (e) => {
     if (e.target.className === 'buttons' && e.target.id !== 'clear') {
         console.log(Number(e.target.textContent))
         input.value = e.target.textContent;
